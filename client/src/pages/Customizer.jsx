@@ -64,8 +64,29 @@ const Customizer = () => {
       })
 
       const data = await response.json();
+      switch (prompt) {
+        case "1":
+          handleDecals(type, `https://th.bing.com/th/id/OIP.6PNuX1Sy5PshdygSLPdxKAHaFC?pid=ImgDet&rs=1`)
+          break;
+        case "2":
+          handleDecals(type, `https://th.bing.com/th/id/OIP.d7UhpJDwloRcNzNMGogLuAHaHa?pid=ImgDet&rs=1`)
+          break;
+        case "3":
+          handleDecals(type, `https://th.bing.com/th/id/OIP.6gaVx0nIZvzn6_vTLBb1lwHaHa?pid=ImgDet&rs=1`)
+          break;
+        case "4":
+          handleDecals(type, `https://cdn.shopify.com/s/files/1/0151/1081/products/VECTOR-T-SHIRT-TEXTURES-06_1200x.jpg?v=1569031950`)
+          break;
+        case "5":
+          handleDecals(type, `https://th.bing.com/th/id/OIP.rrjVZeXscTF8R7bdEPKU4wAAAA?pid=ImgDet&w=400&h=400&rs=1`)
+          break;
+        default:
+          handleDecals(type, `https://th.bing.com/th/id/OIP.rrjVZeXscTF8R7bdEPKU4wAAAA?pid=ImgDet&w=400&h=400&rs=1`)
+          break;
+      }
 
-      // handleDecals(type, `data:image/png;base64,${data.photo}`)
+      console.log(type);
+
     } catch (error) {
       alert(error)
     } finally {
