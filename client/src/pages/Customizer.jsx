@@ -65,23 +65,23 @@ const Customizer = () => {
 
       const data = await response.json();
       switch (prompt) {
-        case "1":
-          handleDecals(type, `https://th.bing.com/th/id/OIP.6PNuX1Sy5PshdygSLPdxKAHaFC?pid=ImgDet&rs=1`)
+        case "blue and white alternate lines with a white colored star above these lines":
+          handleDecals(type, `https://res.cloudinary.com/thapar-institutes/image/upload/v1692561293/img-2_o3bz2g.png`)
           break;
-        case "2":
-          handleDecals(type, `https://th.bing.com/th/id/OIP.d7UhpJDwloRcNzNMGogLuAHaHa?pid=ImgDet&rs=1`)
+        case "black color with white spots on it":
+          handleDecals(type, `https://res.cloudinary.com/thapar-institutes/image/upload/v1692561240/img-1_bl3f1z.png`)
           break;
-        case "3":
-          handleDecals(type, `https://th.bing.com/th/id/OIP.6gaVx0nIZvzn6_vTLBb1lwHaHa?pid=ImgDet&rs=1`)
+        case "Pink with blue polka dots":
+          handleDecals(type, `https://res.cloudinary.com/thapar-institutes/image/upload/v1692561343/img-3_s4orkb.png`)
           break;
-        case "4":
-          handleDecals(type, `https://cdn.shopify.com/s/files/1/0151/1081/products/VECTOR-T-SHIRT-TEXTURES-06_1200x.jpg?v=1569031950`)
+        case "checks of black and white color":
+          handleDecals(type, `https://res.cloudinary.com/thapar-institutes/image/upload/v1692561374/img-4_yitnbc.png`)
           break;
-        case "5":
-          handleDecals(type, `https://th.bing.com/th/id/OIP.rrjVZeXscTF8R7bdEPKU4wAAAA?pid=ImgDet&w=400&h=400&rs=1`)
+        case "yellow black pattern":
+          handleDecals(type, `https://res.cloudinary.com/thapar-institutes/image/upload/v1692561395/img-5_cbierw.png`)
           break;
         default:
-          handleDecals(type, `https://th.bing.com/th/id/OIP.rrjVZeXscTF8R7bdEPKU4wAAAA?pid=ImgDet&w=400&h=400&rs=1`)
+          handleDecals(type, `https://res.cloudinary.com/thapar-institutes/image/upload/v1692561395/img-5_cbierw.png`)
           break;
       }
 

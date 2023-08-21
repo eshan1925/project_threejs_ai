@@ -16,6 +16,7 @@ import Img11 from "../../assets/img_11.jfif";
 
 const Recd = () => {
   return (
+    
     <div class="mainn">
       <div class="gallery-wrapper">
         <div class="image-wrapper">
@@ -54,42 +55,7 @@ const Recd = () => {
             <div class="image-title">Tshirt-6</div>
           </a>
         </div>
-        <div class="col-sm-6 image-wrapper">
-          <a className=" abc" href="#lightbox-image-5">
-            <img class="images" src={Img7} alt="" />
-            <div class="image-title">Tshirt-7</div>
-          </a>
-        </div>
-        <div class="col-sm-6 image-wrapper">
-          <a className=" abc" href="#lightbox-image-5">
-            <img class="images" src={Img8} alt="" />
-            <div class="image-title">Tshirt-8</div>
-          </a>
-        </div>
-        <div class="col-sm-6 image-wrapper">
-          <a className=" abc" href="#lightbox-image-5">
-            <img class="images" src={Img9} alt="" />
-            <div class="image-title">Tshirt-9</div>
-          </a>
-        </div>
-        <div class="col-sm-6 image-wrapper">
-          <a className=" abc" href="#lightbox-image-5">
-            <img class="images" src={Img10} alt="" />
-            <div class="image-title">Tshirt-10</div>
-          </a>
-        </div>
-        <div class="col-sm-6 image-wrapper">
-          <a className=" abc" href="#lightbox-image-5">
-            <img class="images" src={Img11} alt="" />
-            <div class="image-title">Tshirt-11</div>
-          </a>
-        </div>
-        <div class="col-sm-6 image-wrapper">
-          <a className=" abc" href="#lightbox-image-5">
-            <img class="images" src={Img12} alt="" />
-            <div class="image-title">Tshirt-12</div>
-          </a>
-        </div>
+        
       </div>
 
       <div class="gallery-lightboxes">

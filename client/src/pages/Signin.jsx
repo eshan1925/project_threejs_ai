@@ -9,6 +9,7 @@ const Signin = () => {
     }
   return (
     <div className="mainn">
+      <h2>Welcome to StyleVerse!</h2>
       <div className="container1" id="container1">
         <div className="form-container sign-in-container">
           <form className="formmm" action="#">

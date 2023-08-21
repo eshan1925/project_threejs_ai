@@ -47,12 +47,15 @@ const Catalogue = () => {
   return (
     <div>
       <div className="navbar">
-        <div id="logo">Logo</div>
-        <div id="user-greeting">Hi, eshan1925</div>
+        <div className='' id="logo">StyleVerse</div>
+        <div className='nav-links' id="user-greeting">Hi, eshan1925</div>
+        <div className="nav-links btn-prat">My Orders</div>
+        <div className="nav-links btn-prat">My Cart</div>
+        <div className="nav-links btn-prat" onClick={navigateToHome}>Customize</div>
       </div>
       <div className="App">
         <div className="Trends">
-          <h1>Latest trends in the fashion world!</h1>
+          <h2>Latest trends in the fashion world!</h2>
           <Carousel
             animation="slide"
             indicators={false}
